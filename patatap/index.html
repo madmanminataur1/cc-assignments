@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patatapp</title>
+	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="circles.css">
+	<script type="text/paperscript" canvas="myCanvas">
+		var sound = new Howl({
+  src: ['sounds/bubbles.mp3']
+});
+
+sound.play();
+		var circles =[];
+function onKeyDown(event) {
+sound.play();
+var maxpoint=new Point(view.size.width, view.size.height);
+var randompoint=Point.random();
+var point=maxpoint*randompoint;
+var newcircle=new Path.Circle(point, 500);
+newcircle.fillColor='steelblue';
+circles.push(newcircle);
+
+}
+
+function onFrame(event) {
+for(var i=0; i<circles.length;i++){
+
+	circles[i].fillColor.hue += 1;
+	circles[i].scale(0.9);
+
+}
+
+}
+
+
+</script>
+</head>
+</head>
+<body>
+
+
+
+<canvas id="myCanvas" resize></canvas>
+</body>
+</html>

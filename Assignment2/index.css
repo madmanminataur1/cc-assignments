@@ -1,0 +1,33 @@
+.body{
+	background-color: rgba(93, 92, 102, 0.5);
+	padding: 0px;
+	margin: 0px
+	margin-right:0px;
+}
+
+#jumbo{
+	background-color: rgba(0, 0, 0, 0.3);
+	padding-top: 32px
+	padding-bottom: 0px ;
+}
+
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jumbotron{
+	width:90%;
+	font-family: 'Akaya Telivigala', cursive;
+	padding-top:2% ;
+	padding-bottom:3%;
+	box-shadow: 0 8px 6px -6px black;
+	padding-top: : 10px;
+}
+ #dateb{
+ 	background-color: rgba(97, 137, 212.0.5);
+ }

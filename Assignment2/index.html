@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans&family=RocknRoll+One&display=swap" rel="stylesheet">
+</head>
+<body class="container body">
+<div id="jumbo" class="jumbotron container-fluid">
+  <h1 class="display-3"><i class="fa fa-calendar" aria-hidden="true"></i>  Calender</h1>
+  <p class="lead">This is a simple calender unit, a simple classy style component for calling extra attention and eligant finish</p>
+  <hr class="my-4">
+  <p style="font-family: 'RocknRoll One', sans-serif; background-color: ">Toggle between Today's date, month and Year</p>
+
+</div>
+ <div>
+ 	<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne" style="background-color: rgb(89, 103, 110);">
+      <h5 class="mb-0" align="left">
+        <button class="btn btn-link lg" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: lightgrey; font-family: 'RocknRoll One', sans-serif;">
+         	Date
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="background-color: rgba(89, 103, 110, 0.5);">
+      <div id="dateb"class="card-body pl-5" align="left" style=" font-family: 'RocknRoll One', sans-serif;">
+        01
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header date_btn" id="headingTwo" style="background-color: rgb(108, 121, 128);">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed " data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: lightgrey;font-family: 'RocknRoll One', sans-serif; ">
+          Month
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body" style="background-color: rgba(108, 121, 128, 0.5);font-family: 'RocknRoll One', sans-serif; ">
+        02
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header date_btn" id="headingThree" style="background-color: rgb(152, 161, 166);">
+      <h5 class="mb-0" align="right">
+        <button class="btn btn-link collapsed " data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: white; font-family: 'RocknRoll One', sans-serif;">
+          Year
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body" style=" background-color:rgba(152, 161, 166, 0.5); font-family: 'RocknRoll One', sans-serif;" align="right">
+        2021
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
